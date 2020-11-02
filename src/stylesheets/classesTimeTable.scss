@@ -1,0 +1,90 @@
+.classesTimeTable {
+  // background-image: url('../images/classesTable.jpeg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+
+.timeTableIcons {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.timeTableTitle {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+.menuTimeTable {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuTimeTable-item {
+  width: 133px;
+  height: 20px;
+  padding: 0;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 20%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.daysWeek {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 25px;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+}
+.event-item {
+  text-align: center;
+  padding-top: 20px;
+  border: solid 1px white;
+}
+
+.event-itemContent {
+  width: 110px;
+  height: 130px;
+}
+
+.day {
+  text-align: center;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.data {
+  text-align: center;
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.green {
+  background-color: rgb(17, 99, 17);
+}
+
+.lightgreen {
+  background-color: rgb(28, 155, 28);
+}
+
+.lightblue {
+  background-color: rgb(53, 192, 226);
+}
+
+.lightyellow {
+  background-color: rgba(245, 245, 70, 0.733);
+}
+
+.lightcian {
+  background-color: rgb(9, 78, 158);
+}

@@ -1,31 +1,86 @@
 @import '~normalize.css/normalize.css';
-@import './base';
-@import './media';
-@import './fonts';
+@import './header.scss';
+@import './karuselBlock1.scss';
+@import './marketBlock.scss';
+@import './infoForUser.scss';
+@import './classes.scss';
+@import './classesTimeTable.scss';
+@import './trainers.scss';
+@import './instagramFeeds.scss';
+@import './googleMaps.scss';
+@import './footer.scss';
+@import './workshops.scss';
+@import './singleWorkshop.scss';
+@import './contact.scss';
+@import './blog.scss';
+@import './circle.scss';
+@import './adaptiveForPhone.scss';
 
+@font-face {
+  font-family: Meyling-1;
+  src: url('../fonts/MeylingOne.otf');
+}
+
+@font-face {
+  font-family: Meyling-2;
+  src: url('../fonts/MeylingTwo.otf');
+}
+
+@font-face {
+  font-family: Meyling-3;
+  src: url('../fonts/MeylingThree.otf');
+}
 // custom styles
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 html {
   height: 100%;
 }
 
 body {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
 }
 
-a {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline-block;
+.example {
+  background: lightblue;
+  margin-bottom: 300px;
+  .wrapper {
+    width: 400px;
+    margin: auto;
+  }
 
-  img {
+  .animated {
     display: inline-block;
-    vertical-align: middle;
-    width: 80px;
+    width: 100px;
+    position: relative;
+
+    .animation-span {
+      width: 100%;
+      height: 100%;
+      background: lightcoral;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+
+    a {
+      z-index: 1;
+      position: relative;
+    }
+
+    &:hover {
+      .animation-span {
+        animation: menuItem 0.4s linear alternate forwards;
+      }
+    }
   }
 }

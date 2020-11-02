@@ -1,0 +1,30 @@
+.workshopDescrTitle {
+  text-align: left;
+}
+
+.descr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 445px;
+  margin-top: 50px;
+  & img {
+    width: 100%;
+  }
+}
+
+.workshopDescrTitle {
+  margin-top: 70px;
+  font-size: 65px;
+}
+
+.workshopDescrLocation {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.descrText {
+  & p {
+    text-align: left;
+    padding-left: 20px;
+  }
+}

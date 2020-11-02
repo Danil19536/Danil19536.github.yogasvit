@@ -1,0 +1,86 @@
+.publicMessage {
+  margin: auto;
+  & img {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+  }
+}
+
+.publicInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+  display: flex;
+
+  font-family: 'Meyling-1';
+
+  & img {
+    height: 80px;
+  }
+}
+
+.title {
+  font-size: 55px;
+  color: #2c2c2c;
+  padding-left: 15px;
+}
+
+.locationAndContact {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
+
+.footer {
+  padding: 35px 0 35px 0;
+}
+
+.nameLogoFooter {
+  left: 70px;
+  font-size: 60px;
+  padding: 0px 0px 0px 21px;
+}
+
+@media (max-width: 375px) {
+  .publicInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .publicMessage {
+    & img {
+      width: 33px;
+      height: 33px;
+    }
+  }
+
+  .logo img {
+    height: 80px;
+    padding: 0px 0px 0px 45px;
+  }
+
+  .image {
+    height: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .publicInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .logo img {
+    height: 80px;
+    padding: 0px 0px 0px 45px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .locationAndContact {
+    margin-bottom: 20px;
+  }
+}

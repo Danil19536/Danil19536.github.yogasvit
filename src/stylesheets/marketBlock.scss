@@ -1,0 +1,20 @@
+.marketBlock {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.blockSideContent {
+  padding-top: 40px;
+  font-size: 24px;
+  color: #97c249;
+}
+
+.blockSideContent:hover {
+  color: #fff;
+}
+
+.blockSide:hover {
+  background-color: rgba(78, 197, 78, 0.911);
+}

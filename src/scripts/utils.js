@@ -1,5 +1,5 @@
+// * querySelector wrapper;
 /**
- * querySelector wrapper
  *
  * @param {string} selector Selector to query
  * @param {Element} [scope] Optional scope element for the selector

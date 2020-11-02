@@ -1,0 +1,35 @@
+.image {
+  width: 100%;
+  height: 800px;
+  background-image: url('../images/yoga.jpg');
+  background-size: cover;
+}
+
+.content_block1 {
+  position: absolute;
+  top: 25%;
+  left: 11%;
+}
+
+.readMe {
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #97c249;
+  padding-top: 2px;
+  margin-top: 10px;
+}
+
+.karuselTitle {
+  font-family: inherit;
+  font-weight: 300;
+  color: #2c2c2c;
+  font-size: 70px;
+}
+.karuselSubtitle {
+  font-family: inherit;
+  font-weight: 300;
+  color: #2c2c2c;
+  font-size: 30px;
+  margin-top: 15px;
+}

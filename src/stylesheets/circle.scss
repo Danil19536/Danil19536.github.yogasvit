@@ -1,0 +1,27 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  left: 0;
+
+  animation: circle 4s linear infinite alternate 1s forwards;
+}
+
+.circle:hover {
+  animation-play-state: paused;
+}
+
+@keyframes circle {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    border-radius: 50%;
+  }
+
+  100% {
+    left: 1000px;
+  }
+}

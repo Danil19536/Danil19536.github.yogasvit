@@ -1,0 +1,40 @@
+.morePhoto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 35px;
+  & img {
+    width: 100%;
+  }
+}
+
+.iconInstagramFeeds {
+}
+
+.instagramFeedsTitle {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 60px;
+}
+
+.BtnMorePhoto {
+  width: 155px;
+  height: 45px;
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #97c249;
+  padding-top: 2px;
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 50px;
+  border: solid 2px #97c249;
+}
+
+.instagramFeeds {
+  margin-top: 55px;
+}
+
+.disNone {
+  display: none;
+}

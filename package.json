@@ -76,12 +76,6 @@
       "last 1 safari version"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn check-eslint-config && yarn lint-code && yarn check-stylelint-config && yarn lint-style"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "eslint --fix",
@@ -91,5 +85,8 @@
       "stylelint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
   }
 }

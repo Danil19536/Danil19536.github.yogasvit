@@ -1,0 +1,159 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.header__body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.header__list li {
+  list-style: none;
+}
+
+.header__link {
+  color: #2c2c2c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0px 0px 0px 20px;
+}
+
+.header__logo {
+  flex: 0 0 80px;
+  position: relative;
+  z-index: 3;
+  padding-left: 45px;
+}
+
+.header__logo img {
+  max-width: 100%;
+}
+
+.header__burger {
+  display: none;
+}
+
+.nameLogo {
+  position: absolute;
+  z-index: 2;
+  font-size: 55px;
+  left: 14%;
+  top: -8%;
+  font-family: 'Meyling-1';
+}
+
+/*.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    position: fixed;
+    flex-flow: row wrap;
+    background-color: #fff;
+    padding: 15px 0 15px 0;
+}
+
+.positionRel {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.menu-item {
+    width: 110px;
+    position: relative;
+    padding: 20px 0 20px 0;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius:25px;
+
+    & a {
+        text-decoration: none;
+        color: #2c2c2c;
+    }
+
+}
+
+.menu-item:hover {
+    & a{
+        transition: color 0.5s ;
+        color: #ffffff;
+    }
+    background-color: #97c249;
+    transition-duration: 1.5s;
+}
+
+.menu-itemLogo {
+    display: flex;
+    font-family: 'Meyling-1';
+    & span {
+        font-size: 55px;
+        color: #2c2c2c;
+        padding-left: 20px;
+    }
+}
+
+.menu-itemLogo img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.margin-left {
+    margin-left: 100px;
+}
+
+.menu-item:hover {
+   animation-name: menuItem;
+   animation-duration: 3s;
+   animation-timing-function: linear;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    animation: menuItem  0.4s linear alternate forwards ;
+}
+
+@keyframes menuItem {
+    0% {
+
+    }
+
+    100% {
+        border: solid 1px #97c249;
+        background-color: #97c249;
+        color: #fff;
+        padding: 10px;
+    }
+}*/
