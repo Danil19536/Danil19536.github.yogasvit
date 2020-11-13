@@ -28,6 +28,7 @@ let arrLang = {
       workshopList: 'Список занятий',
       blog: 'Наш Блог',
       contacts: 'Наши контакты',
+      schedule: 'Расписание',
     },
   },
 };

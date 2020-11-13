@@ -1,7 +1,5 @@
 .classesTimeTable {
-  // background-image: url('../images/classesTable.jpeg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background: rgba(0,0,0,0.09);
 }
 
 .timeTableIcons {
@@ -10,9 +8,9 @@
 }
 
 .timeTableTitle {
+  padding: 40px 0 0 0;
   text-align: center;
   font-size: 70px;
-  margin-top: 10px;
 }
 
 .menuTimeTable {
@@ -45,10 +43,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 25px;
+  padding: 0 0 40px 0px;
 }
+
+.events_mobile  {
+  display: none;
+}
+
+.eventsForTable {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 25px;
+}
+
 .event-item {
   text-align: center;
   padding-top: 20px;
+  padding: 20px 0px 0px 30px;
   border: solid 1px white;
 }
 
@@ -60,13 +71,11 @@
 .day {
   text-align: center;
   height: 30px;
-  background-color: #ffffff;
 }
 
 .data {
   text-align: center;
-  padding-top: 60px;
-  background-color: #fff;
+  padding-top: 15px;
 }
 
 .green {
@@ -87,4 +96,12 @@
 
 .lightcian {
   background-color: rgb(9, 78, 158);
+}
+
+.classesTitle {
+  position: absolute;
+  top: 21%;
+  left: 14%;
+  font-size: 70px;
+  font-family: inherit;
 }

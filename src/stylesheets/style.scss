@@ -30,6 +30,10 @@
   font-family: Meyling-3;
   src: url('../fonts/MeylingThree.otf');
 }
+@font-face {
+  font-family: Comforta;
+  src: url('../fonts/Comfortaa.ttf');
+}
 // custom styles
 
 .container {
@@ -46,7 +50,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Comforta';
 }
 
 .example {

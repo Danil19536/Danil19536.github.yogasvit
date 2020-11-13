@@ -1,8 +1,10 @@
 .bgWorkshop {
-  height: 400px;
+  height: 600px;
   background-image: url(../images/workshopLogo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 80px;
 }
 
 .titleWorkshop {
@@ -28,6 +30,7 @@
   list-style-type: none;
   line-height: normal;
   color: rgb(53, 139, 53);
+  padding: 40px 0 0 0;
 
   & a {
     text-decoration: none;

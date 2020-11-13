@@ -6,6 +6,22 @@
   .morePhoto img:nth-child(4) {
     display: block;
   }
+
+  .events {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
+
+  .events_mobile {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+  }
+
+  .eventsForTable {
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -56,6 +72,11 @@
 
   .morePhoto img:nth-child(4) {
     display: block;
+  }
+
+  .blockSideContent {
+    padding-top: 20px;
+    font-size: 25px;
   }
 }
 
@@ -206,7 +227,7 @@
 
   .header__burger.active::after {
     transform: rotate(-45deg);
-    bottom: 9px;
+    bottom: 8px;
   }
 
   .header__menu {
@@ -220,7 +241,7 @@
 
   .header__menu.active {
     transition-duration: 0.5s;
-    top: 0;
+    top: 40px;
   }
 
   .header__list {
@@ -243,8 +264,15 @@
   }
 
   .nameLogo {
-    left: 10%;
-    top: -18%;
+    left: 19%;
+    top: 7%;
+    font-size: 55px;
+  }
+
+  .header__logo {
+    position: relative;
+    left: 60px;
+    flex: 0 0 65px;
   }
 
   .morePhoto img:nth-child(3) {
@@ -254,6 +282,94 @@
   .morePhoto img:nth-child(4) {
     display: block;
   }
+
+  .events {
+    display: none;
+  }
+
+  .events_mobile {
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+  }
+
+  .eventsForTable {
+    display: grid;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+
+  .nameLogoFooter {
+    left: 70px;
+    font-size: 50px;
+    padding: 0px 0px 0px 15px;
+  }
+  .event {
+    font-size: 45px;
+  }
+
+  .event span {
+    font-size: 20px;
+  }
+
+  .listEvents {
+    padding: 0 20px 0 20px;
+  }
+
+  .publicMessage {
+    padding: 12px;
+  }
+  
+  .publicMessage img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .trenerCard {
+    margin-top: 20px;
+  }
+
+  .header__body  {
+    height: 100px;
+  }
+  
+  .header__burger {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 7%;
+  }
+
+  .header__burger::before,
+  .header__burger::after {
+    height: 4px;
+  }
+
+  .header__burger span {
+    top: 15px;
+    height: 4px;
+  }
+
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 15px;
+  }
+
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 15px;
+  }
+
+  .blogTitle {
+    font-size: 30px;
+  }
+
+  .blogSubTitle {
+    font-size: 17px;
+  }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -288,7 +404,9 @@
   }
 
   .nameLogo {
-    left: 17%;
+    left: 23%;
+    top: 14%;
+    font-size: 45px;
   }
 
   .cardContent {
@@ -306,6 +424,91 @@
   .morePhoto img:nth-child(4) {
     display: none;
   }
+
+  .event {
+    display: block;
+  }
+
+  .event p {
+    text-align: center;
+  }
+
+  .event span {
+    display: block;
+    padding: 30px 10px 0 10px;
+    text-align: center;
+  }
+
+  .events_mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+  }
+
+  .eventsForTable {
+    display: none;
+  }
+
+  .logo img {
+    padding: 0px 0px 0px 50px;
+  }
+
+  .header__logo {
+    position: relative;
+    left: 15px;
+    flex: 0 0 60px;
+  }
+
+  .header__burger {
+    width: 35px;
+    height: 25px;
+  }
+
+  .header__burger span {
+    top: 11px;
+  }
+
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 13px;
+  }
+
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+  }
+
+  .titleContact  {
+    font-size: 60px;
+  }
+
+  .info {
+    font-family: inherit;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeTableTitle {
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .menuTimeTable-item {
+    font-size: 11px;
+  }
+
+  .locationContact {
+    font-size: 25px;
+  }
+  
+  .weAreOpen {
+    font-size: 25px;
+  }
+
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -327,6 +530,7 @@
 
   .marketBlock {
     grid-template-columns: 1fr 1fr;
+    
   }
 
   .classesList {
@@ -366,9 +570,9 @@
 
   .nameLogo {
     font-family: 'Meyling-1';
-    top: -10%;
-    left: 20%;
-    font-size: 37px;
+    top: 16%;
+    left: 26%;
+    font-size: 42px;
   }
 
   .menuTimeTable-item {
@@ -391,15 +595,23 @@
   }
 
   .event {
-    padding: 15px 0px 0px 35px;
+    padding: 0;
   }
 
   .event p {
-    font-size: 45px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .line {
+    margin: 0;
   }
 
   .listEvents > li > a > span {
-    font-size: 25px;
+    display: block;
+    font-size: 20px;
+    padding: 10px 10px 0 10px;
+    text-align: center;
   }
 
   .listEvents {
@@ -436,8 +648,180 @@
   }
 
   .titleContact {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
-    padding: 40px 0px 0px 0px;
   }
+
+  .event {
+    display: block;
+  }
+
+  .events_mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+  }
+
+  .header__logo {
+    position: relative;
+    left: 24px;
+    flex: 0 0 55px;
+  }
+
+  .header__burger {
+    width: 30px;
+    height: 23px;
+  }
+
+  .header__burger span {
+    top: 10px;
+  }
+
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 11px;
+  }
+
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+  }
+
+  .info {
+    font-family: inherit;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .line {
+    margin: 30px 0 30px 0;
+  }
+
+  .classesTitle {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    font-family: inherit;
+  }
+
+  .timeTableTitle  {
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 50px;
+
+  }
+
+  .menuTimeTable-item {
+    padding: 2px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+   .header {
+      width: 320px;
+   }
+
+   .classesList {
+      grid-template-columns: 1fr ;
+   }
+
+   .publicInfo {
+       width: 320px;
+   }
+
+   .nameLogoFooter {
+    left: 70px;
+    font-size: 50px;
+    padding: 0px 0px 0px 15px;
+   }
+
+   .logo img {
+     height: 80px;
+     padding: 0 0 0 30px;
+   }
+
+   .blockSideContent {
+     padding-top: 10px;
+     font-size: 13px;
+   }
+
+   .header__logo {
+     position: relative;
+     flex: 0 0 45px;
+     left: 5%;
+   }
+
+   .nameLogo {
+    top: 19%;
+    left: 50%;
+    font-size: 37px;
+
+   }
+
+   .header__burger {
+     width: 30px;
+     height: 20px;
+   }
+
+   .header__burger span {
+     top: 8px;
+   }
+
+   .event {
+     display: block;
+   }
+
+  .info {
+      font-family: inherit;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+
+   .titleWorkshop {
+     font-size: 45px;
+   }
+
+   .event p {
+     font-size: 40px;
+   }
+
+   .listEvents > li > a > span {
+     font-size: 23px;
+   }
+
+   .timeTableTitle  {
+     font-size: 35px;
+   }
+
+   .classesTitle  {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    font-family: inherit;
+    
+   }
+
+   .titleContact  {
+     font-size: 45px;
+   }
+   
+   .locationAndContact span {
+    position: relative;
+    left: 0%;
+   }
+
+   .publicMessage {
+    position: relative;
+    left: 0%;
+   }
 }
